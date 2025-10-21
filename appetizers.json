@@ -1,204 +1,402 @@
-{
-  "request": [
-    {
-      "id": 1,
-      "name": "Spicy Tuna",
-      "imageURL": "https://thehealthyfoodie.com/wp-content/uploads/2017/01/Spicy-Tuna-Poke-Bowl-9.jpg",
-      "description": "Tuna with a kick",
-      "price": 14.99,
-      "calories": 400,
-      "protein": 30,
-      "carbs": 20
-    },
-    {
-      "id": 2,
-      "name": "Garlic Shrimp Skewers",
-      "imageURL": "https://images.unsplash.com/photo-1559847844-5315695dada1",
-      "description": "Juicy shrimp marinated in garlic and herbs",
-      "price": 12.49,
-      "calories": 280,
-      "protein": 24,
-      "carbs": 8
-    },
-    {
-      "id": 3,
-      "name": "Caprese Bites",
-      "imageURL": "https://images.unsplash.com/photo-1551183053-bf91a1d81141",
-      "description": "Tomato, basil, and mozzarella with balsamic glaze",
-      "price": 8.99,
-      "calories": 220,
-      "protein": 10,
-      "carbs": 12
-    },
-    {
-      "id": 4,
-      "name": "Chicken Satay",
-      "imageURL": "https://images.unsplash.com/photo-1604908176997-4312f3e0c2b1",
-      "description": "Grilled chicken skewers with peanut sauce",
-      "price": 10.99,
-      "calories": 350,
-      "protein": 28,
-      "carbs": 15
-    },
-    {
-      "id": 5,
-      "name": "Avocado Toast Bites",
-      "imageURL": "https://images.unsplash.com/photo-1551183053-8b5f7b8f3e4f",
-      "description": "Crispy crostini topped with smashed avocado",
-      "price": 7.49,
-      "calories": 190,
-      "protein": 5,
-      "carbs": 18
-    },
-    {
-      "id": 6,
-      "name": "Crispy Calamari",
-      "imageURL": "https://images.unsplash.com/photo-1514512364185-4c2b6c5a9f20",
-      "description": "Lightly fried calamari served with aioli",
-      "price": 11.99,
-      "calories": 420,
-      "protein": 22,
-      "carbs": 28
-    },
-    {
-      "id": 7,
-      "name": "Stuffed Mushrooms",
-      "imageURL": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
-      "description": "Mushrooms stuffed with herbed cheese",
-      "price": 9.49,
-      "calories": 260,
-      "protein": 12,
-      "carbs": 10
-    },
-    {
-      "id": 8,
-      "name": "Mini Crab Cakes",
-      "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947",
-      "description": "Golden crab cakes with lemon aioli",
-      "price": 13.99,
-      "calories": 330,
-      "protein": 20,
-      "carbs": 22
-    },
-    {
-      "id": 9,
-      "name": "Bruschetta Trio",
-      "imageURL": "https://images.unsplash.com/photo-1544025160-4f3119e6bcd7",
-      "description": "Tomato basil, olive tapenade, and pesto",
-      "price": 8.49,
-      "calories": 230,
-      "protein": 7,
-      "carbs": 28
-    },
-    {
-      "id": 10,
-      "name": "Buffalo Cauliflower",
-      "imageURL": "https://images.unsplash.com/photo-1565557623262-3c5b4b2f2f63",
-      "description": "Crispy cauliflower tossed in buffalo sauce",
-      "price": 9.99,
-      "calories": 300,
-      "protein": 9,
-      "carbs": 32
-    },
-    {
-      "id": 11,
-      "name": "Beef Tataki",
-      "imageURL": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
-      "description": "Seared beef with ponzu and scallions",
-      "price": 15.49,
-      "calories": 370,
-      "protein": 32,
-      "carbs": 6
-    },
-    {
-      "id": 12,
-      "name": "Spinach Artichoke Dip",
-      "imageURL": "https://images.unsplash.com/photo-1544025164-7aa2f7e6a5b4",
-      "description": "Creamy dip served with warm pita chips",
-      "price": 8.99,
-      "calories": 410,
-      "protein": 12,
-      "carbs": 30
-    },
-    {
-      "id": 13,
-      "name": "Ahi Poke Nachos",
-      "imageURL": "https://images.unsplash.com/photo-1617191519001-1d9f9e5d2a8b",
-      "description": "Crispy wontons topped with ahi poke",
-      "price": 14.49,
-      "calories": 520,
-      "protein": 29,
-      "carbs": 45
-    },
-    {
-      "id": 14,
-      "name": "Prosciutto Melon Skewers",
-      "imageURL": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
-      "description": "Sweet melon wrapped in salty prosciutto",
-      "price": 9.29,
-      "calories": 210,
-      "protein": 11,
-      "carbs": 14
-    },
-    {
-      "id": 15,
-      "name": "Korean Fried Chicken Bites",
-      "imageURL": "https://images.unsplash.com/photo-1604908553978-6fb3b5c8322f",
-      "description": "Crispy chicken tossed in gochujang glaze",
-      "price": 11.49,
-      "calories": 480,
-      "protein": 26,
-      "carbs": 44
-    },
-    {
-      "id": 16,
-      "name": "Ceviche Cups",
-      "imageURL": "https://images.unsplash.com/photo-1551183053-00c1e0b4c7c8",
-      "description": "Citrus-marinated fish with cilantro and onion",
-      "price": 12.99,
-      "calories": 220,
-      "protein": 20,
-      "carbs": 10
-    },
-    {
-      "id": 17,
-      "name": "Falafel Bites",
-      "imageURL": "https://images.unsplash.com/photo-1544025161-2f6d1d2af512",
-      "description": "Crispy falafel served with tahini sauce",
-      "price": 7.99,
-      "calories": 300,
-      "protein": 11,
-      "carbs": 34
-    },
-    {
-      "id": 18,
-      "name": "Smoked Salmon Canapés",
-      "imageURL": "https://images.unsplash.com/photo-1514516870926-205ceb7bcd4e",
-      "description": "Smoked salmon on rye with dill cream",
-      "price": 12.29,
-      "calories": 260,
-      "protein": 16,
-      "carbs": 18
-    },
-    {
-      "id": 19,
-      "name": "Pork Gyoza",
-      "imageURL": "https://images.unsplash.com/photo-1553621042-f6e147245754",
-      "description": "Pan-fried dumplings with soy dipping sauce",
-      "price": 9.79,
-      "calories": 390,
-      "protein": 17,
-      "carbs": 38
-    },
-    {
-      "id": 20,
-      "name": "Margherita Flatbread",
-      "imageURL": "https://images.unsplash.com/photo-1546549039-49f7d77c5b8b",
-      "description": "Tomato, mozzarella, and basil on flatbread",
-      "price": 10.49,
-      "calories": 450,
-      "protein": 18,
-      "carbs": 52
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Spicy Tuna Roll",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tuna_tartare.jpg",
+    "description": "Finely diced tuna mixed with a spicy mayo sauce, rolled with rice and nori.",
+    "price": 14.99,
+    "calories": 400,
+    "protein": 30,
+    "carbs": 20
+  },
+  {
+    "id": 2,
+    "name": "Chicken Caesar Salad",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Caesar_salad_with_chicken.jpg",
+    "description": "Crisp romaine lettuce, grilled chicken breast, Parmesan cheese, and croutons with Caesar dressing.",
+    "price": 12.50,
+    "calories": 550,
+    "protein": 45,
+    "carbs": 15
+  },
+  {
+    "id": 3,
+    "name": "Margherita Pizza",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pizza_Margherita_della_pizzeria_%22La_Smorfia%22.jpg",
+    "description": "Classic Neapolitan pizza with San Marzano tomatoes, mozzarella, fresh basil, and olive oil.",
+    "price": 16.00,
+    "calories": 780,
+    "protein": 35,
+    "carbs": 95
+  },
+  {
+    "id": 4,
+    "name": "Beef Burrito",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrito_with_shredded_beef%2C_rice%2C_beans%2C_and_cheese.jpg/1200px-Burrito_with_shredded_beef%2C_rice%2C_beans%2C_and_cheese.jpg",
+    "description": "Large flour tortilla filled with seasoned beef, rice, beans, and cheese.",
+    "price": 10.99,
+    "calories": 850,
+    "protein": 40,
+    "carbs": 100
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Lava Cake",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chocolate_lava_cake_with_a_scoop_of_vanilla_ice_cream.jpg/1200px-Chocolate_lava_cake_with_a_scoop_of_vanilla_ice_cream.jpg",
+    "description": "Rich, decadent chocolate cake with a molten, gooey center, served warm.",
+    "price": 8.50,
+    "calories": 620,
+    "protein": 8,
+    "carbs": 70
+  },
+  {
+    "id": 6,
+    "name": "Grilled Salmon",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Grilled_salmon_with_asparagus.jpg/1200px-Grilled_salmon_with_asparagus.jpg",
+    "description": "Perfectly grilled salmon fillet seasoned with lemon and dill, served with roasted asparagus.",
+    "price": 21.50,
+    "calories": 500,
+    "protein": 48,
+    "carbs": 10
+  },
+  {
+    "id": 7,
+    "name": "Lentil Soup (Vegan)",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Red_Lentil_Soup.JPG/1200px-Red_Lentil_Soup.JPG",
+    "description": "Hearty and nutritious soup made with red lentils, carrots, celery, and herbs.",
+    "price": 7.00,
+    "calories": 320,
+    "protein": 18,
+    "carbs": 55
+  },
+  {
+    "id": 8,
+    "name": "Pork Carnitas Tacos",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Carnitas_tacos.jpg/1200px-Carnitas_tacos.jpg",
+    "description": "Slow-cooked, tender pulled pork served in corn tortillas with cilantro and onion.",
+    "price": 13.50,
+    "calories": 650,
+    "protein": 40,
+    "carbs": 45
+  },
+  {
+    "id": 9,
+    "name": "Classic Cheeseburger",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cheeseburger.jpg",
+    "description": "Grilled beef patty topped with cheddar cheese, lettuce, tomato, and pickle on a toasted bun.",
+    "price": 11.99,
+    "calories": 750,
+    "protein": 42,
+    "carbs": 40
+  },
+  {
+    "id": 10,
+    "name": "Shrimp Scampi",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Shrimp_Scampi_with_Linguine.jpg/1200px-Shrimp_Scampi_with_Linguine.jpg",
+    "description": "Sautéed shrimp in a garlic-butter and white wine sauce, served over linguine pasta.",
+    "price": 19.99,
+    "calories": 680,
+    "protein": 38,
+    "carbs": 75
+  },
+  {
+    "id": 11,
+    "name": "Spinach & Feta Omelette",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Feta-Spinach-Omelette.jpg/1200px-Feta-Spinach-Omelette.jpg",
+    "description": "Fluffy three-egg omelette filled with fresh spinach and crumbled feta cheese.",
+    "price": 9.50,
+    "calories": 350,
+    "protein": 22,
+    "carbs": 8
+  },
+  {
+    "id": 12,
+    "name": "Blueberry Pancakes",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Blueberry_Pancakes_%284566164287%29.jpg",
+    "description": "Stack of light and fluffy buttermilk pancakes studded with fresh blueberries.",
+    "price": 8.00,
+    "calories": 600,
+    "protein": 12,
+    "carbs": 110
+  },
+  {
+    "id": 13,
+    "name": "Pho Noodle Soup (Beef)",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pho-Beef-Noodle-Soup.jpg",
+    "description": "Aromatic Vietnamese beef broth with rice noodles, sliced beef, and fresh herbs.",
+    "price": 14.00,
+    "calories": 480,
+    "protein": 35,
+    "carbs": 60
+  },
+  {
+    "id": 14,
+    "name": "Vegetarian Pad Thai",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pad_thai_veg.jpg/1200px-Pad_thai_veg.jpg",
+    "description": "Stir-fried rice noodles with tofu, peanuts, bean sprouts, and a tangy tamarind sauce.",
+    "price": 13.50,
+    "calories": 650,
+    "protein": 20,
+    "carbs": 90
+  },
+  {
+    "id": 15,
+    "name": "California Roll",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/California_Roll_Sushi.jpg/1200px-California_Roll_Sushi.jpg",
+    "description": "Inside-out sushi roll with imitation crab, avocado, and cucumber.",
+    "price": 10.50,
+    "calories": 350,
+    "protein": 15,
+    "carbs": 50
+  },
+  {
+    "id": 16,
+    "name": "Falafel Wrap",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pita_with_falafel%2C_hummus%2C_and_salad.jpg",
+    "description": "Crispy falafel balls, hummus, and mixed vegetables wrapped in a warm pita.",
+    "price": 9.00,
+    "calories": 520,
+    "protein": 14,
+    "carbs": 70
+  },
+  {
+    "id": 17,
+    "name": "Steak Frites",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Steak_frites_01.jpg/1200px-Steak_frites_01.jpg",
+    "description": "Grilled skirt steak served with a side of crispy, thin-cut French fries.",
+    "price": 24.00,
+    "calories": 800,
+    "protein": 60,
+    "carbs": 55
+  },
+  {
+    "id": 18,
+    "name": "Tiramisu",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Tiramisu_-_3.jpg/1200px-Tiramisu_-_3.jpg",
+    "description": "Classic Italian dessert made of coffee-soaked ladyfingers and mascarpone cheese.",
+    "price": 7.50,
+    "calories": 450,
+    "protein": 6,
+    "carbs": 50
+  },
+  {
+    "id": 19,
+    "name": "Chicken Tikka Masala",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Chicken_Tikka_Masala_2.jpg/1200px-Chicken_Tikka_Masala_2.jpg",
+    "description": "Marinated chicken chunks grilled and served in a richly spiced tomato-cream sauce.",
+    "price": 15.50,
+    "calories": 700,
+    "protein": 45,
+    "carbs": 40
+  },
+  {
+    "id": 20,
+    "name": "New York Cheesecake",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/New_York_Cheesecake.jpg",
+    "description": "Dense, smooth, and creamy cheesecake with a graham cracker crust.",
+    "price": 8.00,
+    "calories": 580,
+    "protein": 10,
+    "carbs": 55
+  },
+  {
+    "id": 21,
+    "name": "Fish and Chips",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Fish_and_Chips_at_the_Bay_of_Fires.jpg/1200px-Fish_and_Chips_at_the_Bay_of_Fires.jpg",
+    "description": "Battered and deep-fried white fish served with a generous portion of thick-cut fries.",
+    "price": 17.00,
+    "calories": 900,
+    "protein": 40,
+    "carbs": 80
+  },
+  {
+    "id": 22,
+    "name": "Caprese Salad",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Caprese-salad.jpg/1200px-Caprese-salad.jpg",
+    "description": "Simple Italian salad featuring fresh mozzarella, tomatoes, and basil, seasoned with olive oil.",
+    "price": 11.00,
+    "calories": 250,
+    "protein": 15,
+    "carbs": 10
+  },
+  {
+    "id": 23,
+    "name": "Pulled Pork Sandwich",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pulled-Pork-Sandwich-with-Cole_Slaw-9876.jpg/1200px-Pulled-Pork-Sandwich-with-Cole_Slaw-9876.jpg",
+    "description": "Smoked, shredded pork shoulder tossed in BBQ sauce, served on a bun with coleslaw.",
+    "price": 13.00,
+    "calories": 750,
+    "protein": 45,
+    "carbs": 60
+  },
+  {
+    "id": 24,
+    "name": "Belgian Waffles",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Waffle_with_syrup_and_butter.jpg/1200px-Waffle_with_syrup_and_butter.jpg",
+    "description": "Crispy on the outside, light on the inside, served with butter and maple syrup.",
+    "price": 7.50,
+    "calories": 550,
+    "protein": 10,
+    "carbs": 85
+  },
+  {
+    "id": 25,
+    "name": "Spicy Tonkotsu Ramen",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tonkotsu_Ramen_at_Umami_Ramen%2C_Woburn.jpg/1200px-Tonkotsu_Ramen_at_Umami_Ramen%2C_Woburn.jpg",
+    "description": "Rich, creamy pork bone broth with chashu pork, noodles, and a hint of chili spice.",
+    "price": 16.50,
+    "calories": 950,
+    "protein": 50,
+    "carbs": 90
+  },
+  {
+    "id": 26,
+    "name": "Black Bean Burger",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Black_bean_burger.jpg/1200px-Black_bean_burger.jpg",
+    "description": "Vegetarian patty made from black beans, spices, and grains, served on a bun.",
+    "price": 11.50,
+    "calories": 500,
+    "protein": 20,
+    "carbs": 70
+  },
+  {
+    "id": 27,
+    "name": "New England Clam Chowder",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Clam_chowder.jpg/1200px-Clam_chowder.jpg",
+    "description": "Thick, creamy soup with chopped clams, potatoes, and onions.",
+    "price": 8.50,
+    "calories": 420,
+    "protein": 15,
+    "carbs": 35
+  },
+  {
+    "id": 28,
+    "name": "Apple Pie A La Mode",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Apple_Pie_A_La_Mode_by_Rocco_Rizzuto.jpg/1200px-Apple_Pie_A_La_Mode_by_Rocco_Rizzuto.jpg",
+    "description": "Warm, flaky apple pie topped with a scoop of vanilla ice cream.",
+    "price": 9.00,
+    "calories": 650,
+    "protein": 5,
+    "carbs": 90
+  },
+  {
+    "id": 29,
+    "name": "Chicken & Waffles",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Chicken_and_Waffles_%28Soul_Food%29.jpg/1200px-Chicken_and_Waffles_%28Soul_Food%29.jpg",
+    "description": "Crispy fried chicken served atop a fluffy Belgian waffle, drizzled with syrup.",
+    "price": 15.00,
+    "calories": 1050,
+    "protein": 55,
+    "carbs": 100
+  },
+  {
+    "id": 30,
+    "name": "Eggplant Parmesan",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Melanzane-parmigiana.jpg/1200px-Melanzane-parmigiana.jpg",
+    "description": "Layers of breaded eggplant, mozzarella, and tomato sauce, baked to perfection.",
+    "price": 14.50,
+    "calories": 600,
+    "protein": 25,
+    "carbs": 65
+  },
+  {
+    "id": 31,
+    "name": "Miso Soup",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Miso_soup_%282715003316%29.jpg/1200px-Miso_soup_%282715003316%29.jpg",
+    "description": "Traditional Japanese soup with dashi, miso paste, tofu, and seaweed.",
+    "price": 4.00,
+    "calories": 60,
+    "protein": 5,
+    "carbs": 5
+  },
+  {
+    "id": 32,
+    "name": "Lemon Herb Roasted Chicken",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Roasted_Chicken_with_Lemon_and_Thyme.jpg/1200px-Roasted_Chicken_with_Lemon_and_Thyme.jpg",
+    "description": "Tender chicken quarter roasted with lemon, rosemary, and thyme.",
+    "price": 18.00,
+    "calories": 450,
+    "protein": 55,
+    "carbs": 5
+  },
+  {
+    "id": 33,
+    "name": "Spaghetti Carbonara",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Spaghetti_Carbonara_with_cheese_and_pepper_and_parsley.jpg/1200px-Spaghetti_Carbonara_with_cheese_and_pepper_and_parsley.jpg",
+    "description": "Classic Roman pasta dish with egg yolk, Pecorino Romano cheese, guanciale, and black pepper.",
+    "price": 17.50,
+    "calories": 720,
+    "protein": 30,
+    "carbs": 70
+  },
+  {
+    "id": 34,
+    "name": "Greek Yogurt Parfait",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Yogurt_parfait_with_fruit_and_granola.jpg/1200px-Yogurt_parfait_with_fruit_and_granola.jpg",
+    "description": "Layers of Greek yogurt, granola, and fresh mixed berries.",
+    "price": 6.50,
+    "calories": 300,
+    "protein": 18,
+    "carbs": 40
+  },
+  {
+    "id": 35,
+    "name": "BBQ Ribs",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/BBQ_pork_ribs_2.jpg/1200px-BBQ_pork_ribs_2.jpg",
+    "description": "Smoked, slow-cooked pork ribs smothered in a sweet and tangy BBQ sauce.",
+    "price": 23.00,
+    "calories": 1100,
+    "protein": 70,
+    "carbs": 55
+  },
+  {
+    "id": 36,
+    "name": "Key Lime Pie",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Key_Lime_Pie.jpg/1200px-Key_Lime_Pie.jpg",
+    "description": "Tart, sweet custard pie made from key lime juice, on a graham cracker crust.",
+    "price": 7.50,
+    "calories": 480,
+    "protein": 7,
+    "carbs": 60
+  },
+  {
+    "id": 37,
+    "name": "Vegetable Fried Rice",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vegetable_fried_rice_in_a_bowl.jpg/1200px-Vegetable_fried_rice_in_a_bowl.jpg",
+    "description": "Wok-tossed rice with mixed vegetables, soy sauce, and egg.",
+    "price": 10.00,
+    "calories": 550,
+    "protein": 15,
+    "carbs": 80
+  },
+  {
+    "id": 38,
+    "name": "Gazpacho (Cold Soup)",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Gazpacho_andaluz_2017.jpg/1200px-Gazpacho_andaluz_2017.jpg",
+    "description": "Refreshing Spanish cold soup made from raw, blended vegetables like tomato and cucumber.",
+    "price": 6.00,
+    "calories": 150,
+    "protein": 4,
+    "carbs": 25
+  },
+  {
+    "id": 39,
+    "name": "Chicken Quesadilla",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chicken_quesadilla_with_salsa_and_sour_cream.jpg/1200px-Chicken_quesadilla_with_salsa_and_sour_cream.jpg",
+    "description": "Grilled tortilla filled with melted cheese and seasoned shredded chicken.",
+    "price": 10.50,
+    "calories": 650,
+    "protein": 40,
+    "carbs": 45
+  },
+  {
+    "id": 40,
+    "name": "Brownie Sundae",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Brownie_ice_cream_sundae.jpg/1200px-Brownie_ice_cream_sundae.jpg",
+    "description": "Warm chocolate brownie topped with vanilla ice cream, hot fudge, and whipped cream.",
+    "price": 9.50,
+    "calories": 800,
+    "protein": 10,
+    "carbs": 110
+  }
+]
