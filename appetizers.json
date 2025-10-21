@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Spicy Tuna Roll",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tuna_tartare.jpg",
+      "imageURL": "https://www.tiger-corporation.com/wp-content/uploads/2023/02/hero-img-recipe-spicy-tuna-3db6e125056f2bde01321a3da5d290da.jpg",
       "description": "Finely diced tuna mixed with a spicy mayo sauce, rolled with rice and nori.",
       "price": 14.99,
       "calories": 400,
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Chicken Caesar Salad",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Caesar_salad_with_chicken.jpg",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Jjz3lU26cUFwuv4uE2qwzBqrbOWYZb0CbQ&s",
       "description": "Crisp romaine lettuce, grilled chicken breast, Parmesan cheese, and croutons with Caesar dressing.",
       "price": 12.50,
       "calories": 550,
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Margherita Pizza",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Pizza_Margherita_della_pizzeria_%22La_Smorfia%22.jpg",
+      "imageURL": "https://cookingitalians.com/wp-content/uploads/2024/11/Margherita-Pizza.jpg",
       "description": "Classic Neapolitan pizza with San Marzano tomatoes, mozzarella, fresh basil, and olive oil.",
       "price": 16.00,
       "calories": 780,
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "name": "Beef Burrito",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Burrito_with_shredded_beef%2C_rice%2C_beans%2C_and_cheese.jpg/1200px-Burrito_with_shredded_beef%2C_rice%2C_beans%2C_and_cheese.jpg",
+      "imageURL": "https://www.bordbia.ie/globalassets/bordbia.ie/lifestyle/recipes/bord-bia-recipe-images/spicy-mince-beef-burrito-with-chilli.jpg",
       "description": "Large flour tortilla filled with seasoned beef, rice, beans, and cheese.",
       "price": 10.99,
       "calories": 850,
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "name": "Chocolate Lava Cake",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chocolate_lava_cake_with_a_scoop_of_vanilla_ice_cream.jpg/1200px-Chocolate_lava_cake_with_a_scoop_of_vanilla_ice_cream.jpg",
+      "imageURL": "https://images.getrecipekit.com/20250325120225-how-20to-20make-20chocolate-20molten-20lava-20cake-20in-20the-20microwave.png?width=650&quality=90&",
       "description": "Rich, decadent chocolate cake with a molten, gooey center, served warm.",
       "price": 8.50,
       "calories": 620,
