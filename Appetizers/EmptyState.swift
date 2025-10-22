@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct EmptyState: View {
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color(.systemBackground)
+                .edgesIgnoringSafeArea(.all)
+            VStack{
+                Image("empty-order")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
+                    .padding()
+                Text("No hay pedidos")
+                    .font(.largeTitle)
+                    .foregroundColor(.secondary)
+                
+            }
+        }
     }
 }
 

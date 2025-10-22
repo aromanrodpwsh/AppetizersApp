@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AppetizersDetailView: View {
+struct AppetizersDetailViewModel: View {
     
     let appetizer: Appetizers
     @Binding var isShowingDetail: Bool
@@ -101,5 +101,5 @@ struct AppetizersDetailView: View {
 }
 
 #Preview {
-    AppetizersDetailView(appetizer: MockData.sampleAppetizers, isShowingDetail: .constant(true))
+    AppetizersDetailViewModel(appetizer: MockData.sampleAppetizers, isShowingDetail: .constant(true))
 }
