@@ -53,7 +53,7 @@
     {
       "id": 6,
       "name": "Grilled Salmon",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Grilled_salmon_with_asparagus.jpg/1200px-Grilled_salmon_with_asparagus.jpg",
+      "imageURL": "https://www.diabetesselfmanagement.com/wp-content/uploads/2007/09/dsm-simple-grilled-salmon-shutterstock-248850307.jpg",
       "description": "Perfectly grilled salmon fillet seasoned with lemon and dill, served with roasted asparagus.",
       "price": 21.50,
       "calories": 500,
@@ -63,7 +63,7 @@
     {
       "id": 7,
       "name": "Lentil Soup (Vegan)",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Red_Lentil_Soup.JPG/1200px-Red_Lentil_Soup.JPG",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfTJHuHO_BYYsa_qFJrblj0T5z2bq4QvWqg&s",
       "description": "Hearty and nutritious soup made with red lentils, carrots, celery, and herbs.",
       "price": 7.00,
       "calories": 320,
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "name": "Pork Carnitas Tacos",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Carnitas_tacos.jpg/1200px-Carnitas_tacos.jpg",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fmAR_vZGCtGXr2K-2SnFr2wqqn3cNX7QMQ&s",
       "description": "Slow-cooked, tender pulled pork served in corn tortillas with cilantro and onion.",
       "price": 13.50,
       "calories": 650,
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "name": "Shrimp Scampi",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Shrimp_Scampi_with_Linguine.jpg/1200px-Shrimp_Scampi_with_Linguine.jpg",
+      "imageURL": "https://hips.hearstapps.com/hmg-prod/images/shrimp-scampi-index-644c0ade03d01.jpg?crop=0.6664815329075257xw:1xh;center,top&resize=1200:*",
       "description": "Sautéed shrimp in a garlic-butter and white wine sauce, served over linguine pasta.",
       "price": 19.99,
       "calories": 680,
@@ -103,7 +103,7 @@
     {
       "id": 11,
       "name": "Spinach & Feta Omelette",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Feta-Spinach-Omelette.jpg/1200px-Feta-Spinach-Omelette.jpg",
+      "imageURL": "https://explorecookeat.com/wp-content/uploads/2024/06/MG_0501.jpg",
       "description": "Fluffy three-egg omelette filled with fresh spinach and crumbled feta cheese.",
       "price": 9.50,
       "calories": 350,
@@ -113,7 +113,7 @@
     {
       "id": 12,
       "name": "Blueberry Pancakes",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Blueberry_Pancakes_%284566164287%29.jpg",
+      "imageURL": "https://www.inspiredtaste.net/wp-content/uploads/2019/02/Easy-Homemade-Blueberry-Pancakes-Recipe-2-1200.jpg",
       "description": "Stack of light and fluffy buttermilk pancakes studded with fresh blueberries.",
       "price": 8.00,
       "calories": 600,
@@ -123,7 +123,7 @@
     {
       "id": 13,
       "name": "Pho Noodle Soup (Beef)",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/53/Pho-Beef-Noodle-Soup.jpg",
+      "imageURL": "https://www.seriouseats.com/thmb/U-hWLnDmSZ8_6v07v0yc-8uYxrE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2012__06__20120629-pho-food-lab-19-c94bfd465387441f83ee8939fdf67dbe.jpg",
       "description": "Aromatic Vietnamese beef broth with rice noodles, sliced beef, and fresh herbs.",
       "price": 14.00,
       "calories": 480,
@@ -133,7 +133,7 @@
     {
       "id": 14,
       "name": "Vegetarian Pad Thai",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Pad_thai_veg.jpg/1200px-Pad_thai_veg.jpg",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_OC_MAvyq3LBKkjCmvwhbiO2g6gYIH9rsAw&s",
       "description": "Stir-fried rice noodles with tofu, peanuts, bean sprouts, and a tangy tamarind sauce.",
       "price": 13.50,
       "calories": 650,
