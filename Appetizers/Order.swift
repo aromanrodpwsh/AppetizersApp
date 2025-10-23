@@ -9,17 +9,17 @@ import SwiftUI
 import Combine
 
 final class Order: ObservableObject {
-    @Published var Items: [Appetizers] = []
+    @Published var items: [Appetizers] = []
     
     var totalPrice: Double {
-        Items.reduce(0) { $0 + $1.price }
+        items.reduce(0) { $0 + $1.price }
     }
     
     func addItem(_ item: Appetizers) {
-        Items.append(item)
+        items.append(item)
     }
     
     func deleteItems(at offesets: IndexSet) {
-        Items.remove(atOffsets: offesets)
+        items.remove(atOffsets: offesets)
     }
 }

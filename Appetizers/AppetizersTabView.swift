@@ -10,19 +10,25 @@ import SwiftUI
 struct AppetizersTabView: View {
     
     @EnvironmentObject var order: Order
+    
     var body: some View {
         TabView {
             AppetizersListView()
-                .tabItem { Label("Home",systemImage: "house")}
+                .tabItem { Label("Home", systemImage: "house") }
             AccountView()
-                .tabItem {Label("Account",systemImage: "person")}
+                .tabItem { Label("Account", systemImage: "person") }
             OrderView()
-                .tabItem {Label("Orders",systemImage: "bag")}
-                .badge(order.Items.count)
-        }.accentColor(.ColorbrandPrimary)
+                .tabItem { Label("Orders", systemImage: "bag") }
+                .badge(order.items.count)
+        }
+        .accentColor(.ColorbrandPrimary)
     }
 }
 
 #Preview {
-    AppetizersTabView()
+    let order = Order()
+    // Optional: seed the order for preview badge
+    order.addItem(MockData.sampleAppetizers)
+    return AppetizersTabView()
+        .environmentObject(order)
 }

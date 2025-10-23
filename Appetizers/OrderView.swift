@@ -16,7 +16,7 @@ struct OrderView: View {
             ZStack{
                 VStack{
                     List {
-                        ForEach(order.Items){ appetizer in AppetizersListCell(appetizer: appetizer)
+                        ForEach(order.items){ appetizer in AppetizersListCell(appetizer: appetizer)
                         }
                         .onDelete(perform: order.deleteItems)
                     }
@@ -31,15 +31,11 @@ struct OrderView: View {
                     .padding(.bottom, 25)
                 }
                 
-                if order.Items.isEmpty{
+                if order.items.isEmpty{
                     EmptyState(emptyOrderText: "You have no items in your order. \nPlease add your appetizers \nto place an order.❤️")
                 }
             }.navigationTitle("🧾 Orders")
             
         }
     }
-}
-
-#Preview {
-    OrderView()
 }
