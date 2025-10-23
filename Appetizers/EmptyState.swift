@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EmptyState: View {
     
+    var emptyOrderText: String
     
     var body: some View {
         ZStack{
@@ -20,15 +21,17 @@ struct EmptyState: View {
                     .scaledToFit()
                     .frame(width: 200, height: 200)
                     .padding()
-                Text("No hay pedidos")
-                    .font(.largeTitle)
+                Text(emptyOrderText)
+                    .font(.callout.bold())
+                    .multilineTextAlignment(.center)
                     .foregroundColor(.secondary)
                 
             }
+            .offset(y: -50)
         }
     }
 }
 
 #Preview {
-    EmptyState()
+    EmptyState(emptyOrderText: "Test text")
 }
