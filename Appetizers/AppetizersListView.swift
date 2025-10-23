@@ -18,6 +18,7 @@ struct AppetizersListView: View {
             NavigationView{
                 List(viewModel.appetizers) { appetizer in
                     AppetizersListCell(appetizer: appetizer)
+                        //.listRowSeparatorTint(.gray)
                         .contentShape(Rectangle()) // ensure whole row is tappable
                         .onTapGesture {
                             selectedAppetizier = appetizer
@@ -25,6 +26,7 @@ struct AppetizersListView: View {
                         }
                 }
                 .navigationTitle("🥙 Appetizers")
+                .listStyle(.plain)
                 .disabled(isShowingDetail)
             }
             .onAppear {
